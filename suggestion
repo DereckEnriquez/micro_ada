@@ -1,0 +1,197 @@
+/**
+this is a code suggestion that applies SOLID principles - E1 
+public static class AdaSymbol {
+
+        public AdaSymbol() {
+        }
+    }
+
+    private static class Comida {
+
+        public Comida() {
+        }
+    }
+
+    public interface Functional {
+
+        public void FunctionType();
+    }
+
+    public interface Recorder {
+
+        public void RecordType();
+    }
+
+//REPOSITORIO 1
+    public class LinkedSymbolTable {
+
+        private LinkedHashMap<String, AdaSymbol> table;
+        public LinkedSymbolTable ancestor;
+        public int desplazamiento;
+        public String id;
+        //getters & setters 
+    }
+
+    public class SolicitarLinkedSymbolTable {
+
+        private LinkedHashMap<String, AdaSymbol> table;
+
+        public LinkedHashMap<String, AdaSymbol> getTable() {
+            return this.table;
+        }
+    }
+
+    public class CalcularlinkedSymbolTable {
+
+        public boolean put(Object oid, AdaSymbol tipo) {
+            return false;
+            //implementación
+        }
+
+        public AdaSymbol get(Object oid) {
+            return null;
+            //implementación	
+        }
+    }
+
+    public class ActualizarLinkedSymbolTable {
+
+        public String getFlatId() {
+            return null;
+            //implementación
+        }
+
+        public void addChild(LinkedSymbolTable child) {
+            //implementación
+        }
+    }
+
+    public class offSpringSymbolTable {
+
+        public ArrayList<LinkedSymbolTable> offspring;
+
+        //getters & setters 
+        public LinkedSymbolTable OffSpringMapSymbolTable(LinkedSymbolTable table) {
+            return table;
+        }
+    }
+
+    public class LimpiadorRegistro {
+
+        public String calculateRegister() {
+            return null;
+            //implementación
+        }
+    }
+
+    private interface RegisterDescription {
+
+        public String getEmpty();
+    }
+
+    public class C1RegisterDescription implements RegisterDescription {
+
+        @Override
+        public String getEmpty() {
+            return null;
+            //implementación
+        }
+        //en caso que requieran añadir otro tipo de registro
+
+        public class OtroRegistro implements RegisterDescription {
+
+            @Override
+            public String getEmpty() {
+                return null;
+                //implementación 
+            }
+
+        }
+
+        public abstract class Type {
+
+            public Object equals() {
+                return null;
+                //implementacion personal 
+            }
+
+            public boolean isType() {
+                return false;
+                //implementacion 
+            }
+
+            public String toString2() {
+                return null;
+                //implementacion
+            }
+
+            public class Function implements Functional {
+
+                @Override
+                public void FunctionType() {
+                }
+                //getters a&setters 
+            }
+
+            public class Record implements Recorder {
+
+                @Override
+                public void RecordType() {
+                    //getters a&setters 
+                }
+            }
+
+            public class Primitive implements Integer, Error, Float, Boolean, String {
+
+                @Override
+                public void Integertype() {
+                }
+
+                @Override
+                public void Error() {
+                }
+
+                @Override
+                public void Float() {
+                }
+
+                @Override
+                public void Boolean() {
+                }
+
+                @Override
+                public void String() {
+                }
+
+            }
+
+        }
+
+    }
+
+    public interface Integer {
+
+        public void Integertype();
+    }
+
+    public interface Error {
+
+        public void Error();
+    }
+
+    public interface Float {
+
+        public void Float();
+    }
+
+    public interface Boolean {
+
+        public void Boolean();
+    }
+
+    public interface String {
+
+        public void String();
+    }
+
+**/
